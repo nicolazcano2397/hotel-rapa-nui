@@ -1,0 +1,11 @@
+# Archivos del sistema (Mac)
+.DS_Store
+
+# Archivos de sistema de VS Code
+.vscode/
+
+# Archivos de backup temporales (por si usas editores que los generan)
+*~
+
+# Carpetas o archivos que no quieras subir manualmente (ejemplo: fotos RAW, PSDs, etc.)
+# /archivos-sin-subir/
