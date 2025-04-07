@@ -424,3 +424,21 @@ body {
     padding: 4rem 5rem;
   }
 }
+.bg-white h2 {
+  color: #000;
+}
+.img-moai {
+  max-height: 600px; /* Puedes ajustar este valor */
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.list_rapa_nui {
+  color: #fff;
+  margin-bottom: 40px;
+}
+.recomendacion_efectivo {
+  font-size: 14px;
+}
