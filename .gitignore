@@ -6,6 +6,12 @@
 
 # Archivos de backup temporales (por si usas editores que los generan)
 *~
+*.log
+*.tmp
+*.swp
 
-# Carpetas o archivos que no quieras subir manualmente (ejemplo: fotos RAW, PSDs, etc.)
+#Ignorar backups automáticos de editores
+*.bak
+
+# Carpetas o archivos que no quieras subir manualmente (ejemplo: fotos RAW, PSDs, etc.
 # /archivos-sin-subir/
