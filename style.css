@@ -1,0 +1,426 @@
+/* Tipografías generales */
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #222;
+    background-color: #fff;
+    line-height: 1.6;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2 {
+    font-family: 'Times New Roman', serif;
+    color: #FFFFFF;
+  }
+  
+  h3, h4, h5, h6 {
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #013D5A;
+  }
+  
+  /* Navbar personalizado */
+  .navbar {
+    background-color: #000 !important;
+  }
+  
+  .navbar .nav-link {
+    color: #fff !important;
+    margin-right: 1rem;
+  }
+  
+  .navbar .nav-link:hover,
+  .navbar .nav-link.active {
+    color: #009fe3 !important;
+    text-decoration: underline;
+  }
+  
+  /* Footer personalizado */
+  footer {
+    background-color: #111;
+    color: #fff;
+  }
+  
+  footer h5 {
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  
+  footer hr {
+    border: none;
+    height: 2px;
+    background-color: #fff;
+    opacity: 0.2;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+    color: #009fe3;
+  }
+  
+  footer img {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Asegurar márgenes seguros y evitar overflow */
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  body {
+    overflow-x: hidden;
+  }
+  
+  /* Botón personalizado (si necesitas uno) */
+  .btn-azul {
+    background-color: #013D5A;
+    color: #fff;
+    border: none;
+  }
+  
+  .btn-azul:hover {
+    background-color: #02527e;
+  }
+  
+  /* Responsive tweaks si necesitas ajustar más */
+  @media (max-width: 768px) {
+    footer .col-md-4 {
+      margin-bottom: 2rem;
+    }
+  
+    .navbar .nav-link {
+      margin-right: 0;
+      margin-bottom: 0.5rem;
+    }
+  }
+  /* HERO / SLIDER */
+#hero .carousel-item {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  #hero .carousel-caption {
+    max-width: 600px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  
+  #hero h1 {
+    font-family: 'Times New Roman', serif;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  #hero p {
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 300;
+  }
+  
+  /* Opcional: mejora contraste para pantallas oscuras */
+  #hero .carousel-item::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.35);
+    z-index: 1;
+  }
+  
+  #hero .carousel-caption {
+    z-index: 2;
+    position: relative;
+  }
+  #habitaciones h2 {
+    font-family: 'Times New Roman', serif;
+    color: #013D5A;
+    font-weight: bold;
+  }
+  
+  #habitaciones p {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  #habitaciones img {
+    object-fit: cover;
+    height: 100%;
+  }
+  .img-mosaico-small {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+  }
+  
+  .img-mosaico-large {
+    width: 290px;
+    height: 290px;
+    object-fit: cover;
+  }
+  .sobre-hotel .imagen-hotel {
+    background-image: url('Img-hotel/hotel_vertical.jpg'); /* o la que prefieras */
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    min-height: 450px;
+  }
+  
+  .sobre-hotel .contenido {
+    z-index: 2;
+    position: relative;
+  }  
+  @media (max-width: 767px) {
+    .sobre-hotel .col-md-6.bg-dark::before {
+      display: none;
+    }
+  
+    .sobre-hotel .imagen-hotel {
+      min-height: 250px;
+    }
+  }
+  .sobre-hotel h2 {
+    color: #fff;
+  }
+  .sobre-hotel .row {
+    min-height: 500px; /* O el alto que quieras */
+  }
+  
+  .sobre-hotel .col-md-6 {
+    height: 100%;
+  }
+  #tours h2 {
+    font-family: 'Times New Roman', serif;
+    color: #013D5A;
+  }
+  
+  .tour-card {
+    overflow: hidden;
+    border-radius: 1rem;
+  }
+  
+  .tour-img {
+    position: relative;
+    height: 380px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  
+  .tour-badge {
+    position: absolute;
+    top: 0.75rem;
+    left: 0.75rem;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 0.3rem 0.6rem;
+    font-size: 0.75rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+  }
+  
+  .tour-rating {
+    position: absolute;
+    top: 0.75rem;
+    right: 0.75rem;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 0.3rem 0.6rem;
+    font-size: 0.75rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+  }
+  
+  .tour-footer {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+  }
+  
+  .tour-footer h5 {
+    font-weight: bold;
+    margin-top: 0.25rem;
+  }
+  
+  .tour-footer .price {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #fff;
+  }
+  #matrimonios h2 {
+    font-family: 'Times New Roman', serif;
+    font-size: 2.2rem;
+  }
+  
+  #matrimonios p {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1rem;
+    color: #333;
+  }
+  #testimonios p {
+    color: #333;
+    font-size: 1rem;
+  }
+  #testimonios .btn {
+    padding: 0.5rem 1.5rem;
+    font-weight: 500;
+  }
+  #reconocimientos img {
+    max-height: 80px;
+    transition: all 0.3s ease;
+  }
+  
+  .grayscale-hover {
+    filter: grayscale(100%);
+  }
+  .grayscale-hover:hover {
+    filter: none;
+  }
+  .contact-banner {
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact-banner h1,
+  .contact-banner p {
+    color: #fff;
+    text-shadow: 0 2px 6px rgba(0,0,0,0.5);
+  }
+  .contact-section .form-control {
+    border-radius: 0.375rem;
+    border: 1px solid #ccc;
+  }
+  .hero-blog {
+    position: relative;
+    background-color: #000;
+  }
+  .hero-blog::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5); /* oscurece imagen */
+  }
+  .hero-blog .container {
+    position: relative;
+    z-index: 2;
+  }
+  .card-title {
+    font-family: 'Times New Roman', serif;
+    color: #013D5A;
+  }
+  .card-text {
+    color: #333;
+  }
+  .object-fit-cover {
+    object-fit: cover;
+  }
+  /* Ajustes personalizados para el nuevo navbar */
+.custom-navbar {
+  min-height: 70px;
+}
+
+.navbar-nav .nav-link {
+  font-size: 0.9rem;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+}
+
+/* Botón de reserva */
+.navbar .btn-outline-light {
+  font-size: 0.9rem;
+  font-weight: 500;
+  border: 1px solid #fff;
+  padding: 0.375rem 1rem;
+  transition: all 0.3s ease;
+}
+
+.navbar .btn-outline-light:hover {
+  background-color: #009fe3;
+  border-color: #009fe3;
+  color: #fff;
+}
+/* Banner genérico con overlay */
+.banner-overlay {
+  position: relative;
+  min-height: 450px;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+}
+
+.banner-overlay::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url('Img-otros/mar_horizontal.jpg') center/cover no-repeat;
+  z-index: 1;
+  opacity: 1;
+}
+
+.banner-overlay::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.45);
+  z-index: 2;
+}
+
+.banner-overlay .contenido {
+  position: relative;
+  z-index: 3;
+}
+.play-button svg {
+  transition: transform 0.3s ease;
+  filter: drop-shadow(0 0 6px rgba(0,0,0,0.5));
+}
+.play-button svg:hover {
+  transform: scale(1.1);
+}
+/* Fondo con imagen y overlay oscuro */
+.cta-img-overlay {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cta-img-overlay .overlay-dark {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Capa oscura */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cta-img-overlay .p-5 {
+  padding: 2rem 2rem;
+}
+
+@media (min-width: 768px) {
+  .cta-img-overlay .p-5 {
+    padding: 4rem 5rem;
+  }
+}
