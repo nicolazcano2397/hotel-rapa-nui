@@ -445,3 +445,6 @@ body {
 .text-primary {
   color: #013D5A !important;
 }
+.tour-footer h5 {
+  color: #fff;
+}
