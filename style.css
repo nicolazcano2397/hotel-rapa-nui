@@ -21,7 +21,7 @@ body {
   
   /* Navbar personalizado */
   .navbar {
-    background-color: #000 !important;
+    background-color: #013D5A !important;
   }
   
   .navbar .nav-link {
@@ -441,4 +441,7 @@ body {
 }
 .recomendacion_efectivo {
   font-size: 14px;
+}
+.text-primary {
+  color: #013D5A !important;
 }
