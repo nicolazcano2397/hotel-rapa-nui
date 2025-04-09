@@ -80,7 +80,7 @@ body {
     overflow-x: hidden;
   }
   
-  /* Botón personalizado (si necesitas uno) */
+  /* Botón personalizado */
   .btn-azul {
     background-color: #013D5A;
     color: #fff;
@@ -91,7 +91,7 @@ body {
     background-color: #02527e;
   }
   
-  /* Responsive tweaks si necesitas ajustar más */
+  /* Responsive tweaks */
   @media (max-width: 768px) {
     footer .col-md-4 {
       margin-bottom: 2rem;
@@ -169,7 +169,7 @@ body {
     object-fit: cover;
   }
   .sobre-hotel .imagen-hotel {
-    background-image: url('Img-hotel/hotel_vertical.jpg'); /* o la que prefieras */
+    background-image: url('Img-hotel/hotel_vertical.jpg');
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -193,7 +193,7 @@ body {
     color: #fff;
   }
   .sobre-hotel .row {
-    min-height: 500px; /* O el alto que quieras */
+    min-height: 500px; 
   }
   
   .sobre-hotel .col-md-6 {
@@ -428,7 +428,7 @@ body {
   color: #000;
 }
 .img-moai {
-  max-height: 600px; /* Puedes ajustar este valor */
+  max-height: 600px; 
   object-fit: cover;
   display: block;
   margin-left: auto;
