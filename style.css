@@ -448,3 +448,18 @@ body {
 .tour-footer h5 {
   color: #fff;
 }
+#hero {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+#hero, #hero .carousel, #hero .carousel-inner, #hero .carousel-item {
+  height: 100vh;
+}
+/* Fix para slider del home roto */
+#hero,
+#hero .carousel,
+#hero .carousel-inner,
+#hero .carousel-item {
+  height: 100vh;
+}
